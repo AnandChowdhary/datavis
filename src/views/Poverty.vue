@@ -17,7 +17,7 @@ a {
   display: inline-block;
   border-radius: 0.2rem;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
   background-color: #fff;
   text-align: center;
 }

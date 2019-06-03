@@ -6,6 +6,7 @@
       <li>Anand Chowdhary (s1930702)</li>
       <li>Emiel Rous (s2014025)</li>
       <li>Zhiyuan Chen (s1996053)</li>
+      <li>Janneke Kroes (s1838555)</li>
     </ul>
     <p>The topic was to visualize suicide rates in different ways.</p>
     <p>The app is written in Vue/JavaScript and the visualizations are made using d3.js and Tableau.</p>
