@@ -5,6 +5,7 @@ import About from "./views/About.vue";
 import Poverty from "./views/Poverty.vue";
 import Generation from "./views/Generation.vue";
 import Latitude from "./views/Latitude.vue";
+import Calculator from "./views/Calculator.vue";
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: "/about",
       name: "about",
       component: About
+    },
+    {
+      path: "/calculator",
+      name: "calculator",
+      component: Calculator
     }
   ]
 })
