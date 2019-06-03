@@ -1,0 +1,34 @@
+body {
+  background: #000;
+  font: menu;
+  overflow: hidden;
+  margin: 0;
+  font-size: 100%;
+}
+
+#info {
+  position: fixed;
+  right: 3vw;
+  top: 3vw;
+  background-color: #fff;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 0.2rem;
+}
+
+#info h1 {
+  margin: 0;
+  font-size: 110%;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.img {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 1rem;
+}

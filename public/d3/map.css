@@ -1,0 +1,196 @@
+svg#world-map {
+  background: #2c3e50;
+}
+
+#world-map path.country {
+  stroke: #bdc3c7;
+  stroke-width: 0.5px;
+  fill: #ecf0f1;
+  transition: transform 0.3s, transform-origin 0.3s;
+}
+
+#world-map path.country:hover {
+  transform: scale(1.05);
+  transform-origin: center;
+}
+
+#world-map #sphere {
+  fill: #3498db;
+}
+
+#world-map path.country[data-country="Lithuania"] { fill: rgba(0, 1, 0) }
+#world-map path.country[data-country="Russia"] { fill: rgba(0, 2, 0) }
+#world-map path.country[data-country="Guyana"] { fill: rgba(0, 3, 0) }
+#world-map path.country[data-country="South Korea"] { fill: rgba(0, 4, 0) }
+#world-map path.country[data-country="Belarus"] { fill: rgba(0, 5, 0) }
+#world-map path.country[data-country="Suriname"] { fill: rgba(0, 6, 0) }
+#world-map path.country[data-country="Kazakhstan"] { fill: rgba(0, 7, 0) }
+#world-map path.country[data-country="Ukraine"] { fill: rgba(0, 8, 0) }
+#world-map path.country[data-country="Latvia"] { fill: rgba(0, 9, 0) }
+#world-map path.country[data-country="Lesotho"] { fill: rgba(0, 10, 0) }
+#world-map path.country[data-country="Belgium"] { fill: rgba(0, 11, 0) }
+#world-map path.country[data-country="Hungary"] { fill: rgba(0, 12, 0) }
+#world-map path.country[data-country="Slovenia"] { fill: rgba(0, 13, 0) }
+#world-map path.country[data-country="Japan"] { fill: rgba(0, 14, 0) }
+#world-map path.country[data-country="Uruguay"] { fill: rgba(0, 15, 0) }
+#world-map path.country[data-country="Estonia"] { fill: rgba(0, 16, 0) }
+#world-map path.country[data-country="France"] { fill: rgba(0, 17, 0) }
+#world-map path.country[data-country="Switzerland"] { fill: rgba(0, 18, 0) }
+#world-map path.country[data-country="Croatia"] { fill: rgba(0, 19, 0) }
+#world-map path.country[data-country="Equatorial Guinea"] { fill: rgba(0, 20, 0) }
+#world-map path.country[data-country="India"] { fill: rgba(0, 21, 0) }
+#world-map path.country[data-country="Poland"] { fill: rgba(0, 22, 0) }
+#world-map path.country[data-country="Moldova"] { fill: rgba(0, 23, 0) }
+#world-map path.country[data-country="Finland"] { fill: rgba(0, 24, 0) }
+#world-map path.country[data-country="Serbia"] { fill: rgba(0, 25, 0) }
+#world-map path.country[data-country="Austria"] { fill: rgba(0, 26, 0) }
+#world-map path.country[data-country="United States"] { fill: rgba(0, 27, 0) }
+#world-map path.country[data-country="Sweden"] { fill: rgba(0, 28, 0) }
+#world-map path.country[data-country="Sri Lanka"] { fill: rgba(0, 29, 0) }
+#world-map path.country[data-country="Thailand"] { fill: rgba(0, 30, 0) }
+#world-map path.country[data-country="Kiribati"] { fill: rgba(0, 31, 0) }
+#world-map path.country[data-country="Portugal"] { fill: rgba(0, 32, 0) }
+#world-map path.country[data-country="Iceland"] { fill: rgba(0, 33, 0) }
+#world-map path.country[data-country="Cuba"] { fill: rgba(0, 34, 0) }
+#world-map path.country[data-country="El Salvador"] { fill: rgba(0, 35, 0) }
+#world-map path.country[data-country="Trinidad And Tobago"] { fill: rgba(0, 36, 0) }
+#world-map path.country[data-country="Germany"] { fill: rgba(0, 37, 0) }
+#world-map path.country[data-country="Luxembourg"] { fill: rgba(0, 38, 0) }
+#world-map path.country[data-country="Australia"] { fill: rgba(0, 39, 0) }
+#world-map path.country[data-country="Mongolia"] { fill: rgba(0, 40, 0) }
+#world-map path.country[data-country="Slovakia"] { fill: rgba(0, 41, 0) }
+#world-map path.country[data-country="Denmark"] { fill: rgba(0, 42, 0) }
+#world-map path.country[data-country="Netherlands"] { fill: rgba(0, 43, 0) }
+#world-map path.country[data-country="Canada"] { fill: rgba(0, 44, 0) }
+#world-map path.country[data-country="Norway"] { fill: rgba(0, 45, 0) }
+#world-map path.country[data-country="Nicaragua"] { fill: rgba(0, 46, 0) }
+#world-map path.country[data-country="Cameroon"] { fill: rgba(0, 47, 0) }
+#world-map path.country[data-country="Bolivia"] { fill: rgba(0, 48, 0) }
+#world-map path.country[data-country="New Zealand"] { fill: rgba(0, 49, 0) }
+#world-map path.country[data-country="Haiti"] { fill: rgba(0, 50, 0) }
+#world-map path.country[data-country="South Africa"] { fill: rgba(0, 51, 0) }
+#world-map path.country[data-country="Ireland"] { fill: rgba(0, 52, 0) }
+#world-map path.country[data-country="Bulgaria"] { fill: rgba(0, 53, 0) }
+#world-map path.country[data-country="Bhutan"] { fill: rgba(0, 54, 0) }
+#world-map path.country[data-country="Cape Verde"] { fill: rgba(0, 55, 0) }
+#world-map path.country[data-country="Zimbabwe"] { fill: rgba(0, 56, 0) }
+#world-map path.country[data-country="Chile"] { fill: rgba(0, 57, 0) }
+#world-map path.country[data-country="Romania"] { fill: rgba(0, 58, 0) }
+#world-map path.country[data-country="Montenegro"] { fill: rgba(0, 59, 0) }
+#world-map path.country[data-country="Uganda"] { fill: rgba(0, 60, 0) }
+#world-map path.country[data-country="Singapore"] { fill: rgba(0, 61, 0) }
+#world-map path.country[data-country="Dominican Republic"] { fill: rgba(0, 62, 0) }
+#world-map path.country[data-country="Benin"] { fill: rgba(0, 63, 0) }
+#world-map path.country[data-country="Sierra Leone"] { fill: rgba(0, 64, 0) }
+#world-map path.country[data-country="China"] { fill: rgba(0, 65, 0) }
+#world-map path.country[data-country="Togo"] { fill: rgba(0, 66, 0) }
+#world-map path.country[data-country="Paraguay"] { fill: rgba(0, 67, 0) }
+#world-map path.country[data-country="Nigeria"] { fill: rgba(0, 68, 0) }
+#world-map path.country[data-country="Seychelles"] { fill: rgba(0, 69, 0) }
+#world-map path.country[data-country="Botswana"] { fill: rgba(0, 70, 0) }
+#world-map path.country[data-country="Argentina"] { fill: rgba(0, 71, 0) }
+#world-map path.country[data-country="Burundi"] { fill: rgba(0, 72, 0) }
+#world-map path.country[data-country="Nepal"] { fill: rgba(0, 73, 0) }
+#world-map path.country[data-country="Chad"] { fill: rgba(0, 74, 0) }
+#world-map path.country[data-country="Bosnia And Herzegovina"] { fill: rgba(0, 75, 0) }
+#world-map path.country[data-country="Spain"] { fill: rgba(0, 76, 0) }
+#world-map path.country[data-country="Namibia"] { fill: rgba(0, 77, 0) }
+#world-map path.country[data-country="Laos"] { fill: rgba(0, 78, 0) }
+#world-map path.country[data-country="Yemen"] { fill: rgba(0, 79, 0) }
+#world-map path.country[data-country="Kyrgyzstan"] { fill: rgba(0, 80, 0) }
+#world-map path.country[data-country="Italy"] { fill: rgba(0, 81, 0) }
+#world-map path.country[data-country="Georgia"] { fill: rgba(0, 82, 0) }
+#world-map path.country[data-country="Sudan"] { fill: rgba(0, 83, 0) }
+#world-map path.country[data-country="Eritrea"] { fill: rgba(0, 84, 0) }
+#world-map path.country[data-country="Costa Rica"] { fill: rgba(0, 85, 0) }
+#world-map path.country[data-country="Saint Lucia"] { fill: rgba(0, 86, 0) }
+#world-map path.country[data-country="Mauritius"] { fill: rgba(0, 87, 0) }
+#world-map path.country[data-country="Myanmar"] { fill: rgba(0, 88, 0) }
+#world-map path.country[data-country="Burkina Faso"] { fill: rgba(0, 89, 0) }
+#world-map path.country[data-country="Central African Republic"] { fill: rgba(0, 90, 0) }
+#world-map path.country[data-country="Malta"] { fill: rgba(0, 91, 0) }
+#world-map path.country[data-country="Uzbekistan"] { fill: rgba(0, 92, 0) }
+#world-map path.country[data-country="Turkey"] { fill: rgba(0, 93, 0) }
+#world-map path.country[data-country="Vietnam"] { fill: rgba(0, 94, 0) }
+#world-map path.country[data-country="Ethiopia"] { fill: rgba(0, 95, 0) }
+#world-map path.country[data-country="Colombia"] { fill: rgba(0, 96, 0) }
+#world-map path.country[data-country="Gabon"] { fill: rgba(0, 97, 0) }
+#world-map path.country[data-country="Ecuador"] { fill: rgba(0, 98, 0) }
+#world-map path.country[data-country="Liberia"] { fill: rgba(0, 99, 0) }
+#world-map path.country[data-country="Comoros"] { fill: rgba(0, 100, 0) }
+#world-map path.country[data-country="Turkmenistan"] { fill: rgba(0, 101, 0) }
+#world-map path.country[data-country="Rwanda"] { fill: rgba(0, 102, 0) }
+#world-map path.country[data-country="Djibouti"] { fill: rgba(0, 103, 0) }
+#world-map path.country[data-country="Qatar"] { fill: rgba(0, 104, 0) }
+#world-map path.country[data-country="Armenia"] { fill: rgba(0, 105, 0) }
+#world-map path.country[data-country="Brazil"] { fill: rgba(0, 106, 0) }
+#world-map path.country[data-country="Guinea"] { fill: rgba(0, 107, 0) }
+#world-map path.country[data-country="Albania"] { fill: rgba(0, 108, 0) }
+#world-map path.country[data-country="Zambia"] { fill: rgba(0, 109, 0) }
+#world-map path.country[data-country="Senegal"] { fill: rgba(0, 110, 0) }
+#world-map path.country[data-country="Papua New Guinea"] { fill: rgba(0, 111, 0) }
+#world-map path.country[data-country="Republic Of The Congo"] { fill: rgba(0, 112, 0) }
+#world-map path.country[data-country="Bangladesh"] { fill: rgba(0, 113, 0) }
+#world-map path.country[data-country="Bahrain"] { fill: rgba(0, 114, 0) }
+#world-map path.country[data-country="Dr Congo"] { fill: rgba(0, 115, 0) }
+#world-map path.country[data-country="Malaysia"] { fill: rgba(0, 116, 0) }
+#world-map path.country[data-country="Tanzania"] { fill: rgba(0, 117, 0) }
+#world-map path.country[data-country="Israel"] { fill: rgba(0, 118, 0) }
+#world-map path.country[data-country="Ghana"] { fill: rgba(0, 119, 0) }
+#world-map path.country[data-country="Cyprus"] { fill: rgba(0, 120, 0) }
+#world-map path.country[data-country="Cambodia"] { fill: rgba(0, 121, 0) }
+#world-map path.country[data-country="Libya"] { fill: rgba(0, 122, 0) }
+#world-map path.country[data-country="Mexico"] { fill: rgba(0, 123, 0) }
+#world-map path.country[data-country="Gambia"] { fill: rgba(0, 124, 0) }
+#world-map path.country[data-country="Greece"] { fill: rgba(0, 125, 0) }
+#world-map path.country[data-country="Fiji"] { fill: rgba(0, 126, 0) }
+#world-map path.country[data-country="Peru"] { fill: rgba(0, 127, 0) }
+#world-map path.country[data-country="Mozambique"] { fill: rgba(0, 128, 0) }
+#world-map path.country[data-country="Mali"] { fill: rgba(0, 129, 0) }
+#world-map path.country[data-country="Somalia"] { fill: rgba(0, 130, 0) }
+#world-map path.country[data-country="Solomon Islands"] { fill: rgba(0, 131, 0) }
+#world-map path.country[data-country="Belize"] { fill: rgba(0, 132, 0) }
+#world-map path.country[data-country="Angola"] { fill: rgba(0, 133, 0) }
+#world-map path.country[data-country="Afghanistan"] { fill: rgba(0, 134, 0) }
+#world-map path.country[data-country="Timor Leste"] { fill: rgba(0, 135, 0) }
+#world-map path.country[data-country="Niger"] { fill: rgba(0, 136, 0) }
+#world-map path.country[data-country="Brunei"] { fill: rgba(0, 137, 0) }
+#world-map path.country[data-country="Vanuatu"] { fill: rgba(0, 138, 0) }
+#world-map path.country[data-country="Samoa"] { fill: rgba(0, 139, 0) }
+#world-map path.country[data-country="Mauritania"] { fill: rgba(0, 140, 0) }
+#world-map path.country[data-country="Panama"] { fill: rgba(0, 141, 0) }
+#world-map path.country[data-country="Iran"] { fill: rgba(0, 142, 0) }
+#world-map path.country[data-country="Egypt"] { fill: rgba(0, 143, 0) }
+#world-map path.country[data-country="Guinea Bissau"] { fill: rgba(0, 144, 0) }
+#world-map path.country[data-country="Oman"] { fill: rgba(0, 145, 0) }
+#world-map path.country[data-country="Madagascar"] { fill: rgba(0, 146, 0) }
+#world-map path.country[data-country="Venezuela"] { fill: rgba(0, 147, 0) }
+#world-map path.country[data-country="South Sudan"] { fill: rgba(0, 148, 0) }
+#world-map path.country[data-country="Malawi"] { fill: rgba(0, 149, 0) }
+#world-map path.country[data-country="Tonga"] { fill: rgba(0, 150, 0) }
+#world-map path.country[data-country="Tunisia"] { fill: rgba(0, 151, 0) }
+#world-map path.country[data-country="Indonesia"] { fill: rgba(0, 152, 0) }
+#world-map path.country[data-country="Lebanon"] { fill: rgba(0, 153, 0) }
+#world-map path.country[data-country="Saudi Arabia"] { fill: rgba(0, 154, 0) }
+#world-map path.country[data-country="Philippines"] { fill: rgba(0, 155, 0) }
+#world-map path.country[data-country="Kenya"] { fill: rgba(0, 156, 0) }
+#world-map path.country[data-country="Algeria"] { fill: rgba(0, 157, 0) }
+#world-map path.country[data-country="Iraq"] { fill: rgba(0, 158, 0) }
+#world-map path.country[data-country="Pakistan"] { fill: rgba(0, 159, 0) }
+#world-map path.country[data-country="Morocco"] { fill: rgba(0, 160, 0) }
+#world-map path.country[data-country="Jordan"] { fill: rgba(0, 161, 0) }
+#world-map path.country[data-country="Honduras"] { fill: rgba(0, 162, 0) }
+#world-map path.country[data-country="United Arab Emirates"] { fill: rgba(0, 163, 0) }
+#world-map path.country[data-country="Guatemala"] { fill: rgba(0, 164, 0) }
+#world-map path.country[data-country="Azerbaijan"] { fill: rgba(0, 165, 0) }
+#world-map path.country[data-country="Tajikistan"] { fill: rgba(0, 166, 0) }
+#world-map path.country[data-country="Saint Vincent And The Grenadines"] { fill: rgba(0, 167, 0) }
+#world-map path.country[data-country="Sao Tome And Principe"] { fill: rgba(0, 168, 0) }
+#world-map path.country[data-country="Maldives"] { fill: rgba(0, 169, 0) }
+#world-map path.country[data-country="Kuwait"] { fill: rgba(0, 170, 0) }
+#world-map path.country[data-country="Jamaica"] { fill: rgba(0, 171, 0) }
+#world-map path.country[data-country="Syria"] { fill: rgba(0, 172, 0) }
+#world-map path.country[data-country="Grenada"] { fill: rgba(0, 173, 0) }
+#world-map path.country[data-country="Bahamas"] { fill: rgba(0, 174, 0) }
+#world-map path.country[data-country="Barbados"] { fill: rgba(0, 175, 0) }
+#world-map path.country[data-country="Antigua And Barbuda"] { fill: rgba(0, 176, 0) }
