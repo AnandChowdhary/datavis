@@ -108,7 +108,6 @@ nav {
 main {
   margin: auto;
   padding: 2rem;
-  max-width: 800px;
 }
 @media (min-width: 500px) {
   main {

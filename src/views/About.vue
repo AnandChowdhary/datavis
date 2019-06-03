@@ -4,6 +4,8 @@
     <p>This webapp is the Data Visualization project for Module 6, Creative Technology BSc team:</p>
     <ul>
       <li>Anand Chowdhary (s1930702)</li>
+      <li>Emiel Rous (s2014025)</li>
+      <li>Zhiyuan Chen (s1996053)</li>
     </ul>
     <p>The topic was to visualize suicide rates in different ways.</p>
     <p>The app is written in Vue/JavaScript and the visualizations are made using d3.js and Tableau.</p>
@@ -15,6 +17,10 @@
 <style lang="scss" scoped>
 a {
   color: inherit;
+}
+div {
+  max-width: 600px;
+  margin: auto;
 }
 </style>
 
