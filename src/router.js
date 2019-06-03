@@ -3,6 +3,8 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Poverty from "./views/Poverty.vue";
+import Generation from "./views/Generation.vue";
+import Latitude from "./views/Latitude.vue";
 
 Vue.use(Router)
 
@@ -17,6 +19,16 @@ export default new Router({
       path: "/poverty",
       name: "poverty",
       component: Poverty
+    },
+    {
+      path: "/generation",
+      name: "generation",
+      component: Generation
+    },
+    {
+      path: "/latitude",
+      name: "latitude",
+      component: Latitude
     },
     {
       path: "/about",

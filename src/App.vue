@@ -58,6 +58,9 @@ export default {
 
 
 <style lang="scss">
+img {
+  max-width: 100%;
+}
 body {
   font: menu;
   font-size: 100%;
