@@ -17,6 +17,10 @@
         <font-awesome-icon class="icon" icon="globe" />
         <span>Latitude</span>
       </router-link>
+      <router-link to="/gender">
+        <font-awesome-icon class="icon" icon="transgender" />
+        <span>Gender/age</span>
+      </router-link>
       <router-link to="/calculator">
         <font-awesome-icon class="icon" icon="calculator" />
         <span>Calculator</span>
@@ -39,7 +43,8 @@ import {
   faMoneyBill,
   faUsers,
   faGlobe,
-  faCalculator
+  faCalculator,
+  faTransgender
 } from "@fortawesome/free-solid-svg-icons";
 library.add(
   faGlobeAmericas,
@@ -47,7 +52,8 @@ library.add(
   faMoneyBill,
   faUsers,
   faGlobe,
-  faCalculator
+  faCalculator,
+  faTransgender
 )
 export default {
   components: {
